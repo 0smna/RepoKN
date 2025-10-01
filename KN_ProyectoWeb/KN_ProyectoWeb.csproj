@@ -162,8 +162,14 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Areas\fdf\Controllers\" />
+    <Folder Include="Areas\fdf\Data\" />
+    <Folder Include="Areas\fdf\Views\Shared\" />
+    <Folder Include="EF\" />
+    <Folder Include="Views\Default\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Areas\fdf\Views\web.config" />
     <None Include="packages.config" />
     <Content Include="StaticFiles\fonts\boxicons.eot" />
     <Content Include="StaticFiles\fonts\boxicons.ttf" />
