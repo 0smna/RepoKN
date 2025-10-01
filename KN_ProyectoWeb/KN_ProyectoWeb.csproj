@@ -8,7 +8,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{D2C328AC-20F7-4A7F-ACD6-240460F01C1E}</ProjectGuid>
+    <ProjectGuid>{05BA3C6A-B72B-4ECB-B792-F310464FE725}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -124,6 +124,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Usuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -136,6 +137,7 @@
     <Content Include="StaticFiles\css\perfect-scrollbar.css" />
     <Content Include="StaticFiles\css\theme-default.css" />
     <Content Include="StaticFiles\fonts\boxicons.svg" />
+    <Content Include="StaticFiles\img\1.png" />
     <Content Include="StaticFiles\js\bootstrap.js" />
     <Content Include="StaticFiles\js\config.js" />
     <Content Include="StaticFiles\js\helpers.js" />
@@ -160,7 +162,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -169,6 +170,8 @@
     <Content Include="StaticFiles\fonts\boxicons.woff" />
     <Content Include="StaticFiles\fonts\boxicons.woff2" />
     <Content Include="Views\Home\Registro.cshtml" />
+    <Content Include="Views\Home\Principal.cshtml" />
+    <Content Include="Views\Home\RecuperarAcceso.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
